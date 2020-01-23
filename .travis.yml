@@ -11,4 +11,6 @@ install:
 script:
   # test connection
   - python dbconnector.py
+  # run tests
+  - python -m pytest test/unit/test.py
 
